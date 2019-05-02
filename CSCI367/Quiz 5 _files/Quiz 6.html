@@ -1,0 +1,2825 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://wwu.instructure.com/courses/1235296/quizzes/1063861 -->
+<html class="" dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Quiz 6: FA18 CSCI 367: Computer Networks I 201840</title>
+  <!--[if lte IE 9]> <meta http-equiv=refresh content="0; URL=/ie-9-is-not-supported.html" /> <![endif]-->
+  
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/latin/LatoLatin-Regular-3cd3657802.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="shortcut icon" type="image/x-icon" href="https://instructure-uploads.s3.amazonaws.com/account_100000000102096/attachments/40989890/favicon.ico">
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png">
+  
+  <link rel="stylesheet" media="all" href="./Quiz 6_files/variables-750d72b9d3e5d522f965bf904110c132.css">
+    <!--<base target="_top">--><base href="." target="_top">
+<link rel="stylesheet" media="all" href="./Quiz 6_files/common-84293ce084.css">
+  <script type="text/javascript" async="" src="./Quiz 6_files/ga.js"></script><script>
+//<![CDATA[
+
+!function(){
+  function get(u){document.write('<scr'+'ipt src="'+ u +'"></sc'+'ript>')}
+  var o,s,v;
+  if (!(window.Promise && Object.assign && Object.values && [].find && [].includes && (o={},s=Symbol(),v={},o[s]=v,o[s]===v) && (function f(){}).bind().name==='bound f')) {
+    get("https://du11hjcvx0uqb.cloudfront.net/dist/ie11-polyfill-9f640d24ea.js");
+  }
+  window.fetch || get("https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js");
+}();
+      
+//]]>
+</script>
+  <script src="./Quiz 6_files/lato-fontfaceobserver-ed903d58c4.js" async="async"></script>
+  
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="https://wwu.instructure.com/web-app-manifest/manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0083d6">
+  <link rel="stylesheet" media="all" href="./Quiz 6_files/quizzes-76af4907fe.css">
+<link rel="stylesheet" media="all" href="./Quiz 6_files/learning_outcomes-f40ec34c4b.css">
+  
+  
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          e.preventDefault()
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+  <script src="./Quiz 6_files/variables-750d72b9d3e5d522f965bf904110c132.js" defer="defer"></script>
+  <script src="./Quiz 6_files/vendor.bundle-c80e70ebf6.js" defer="defer"></script>
+<script src="./Quiz 6_files/Los_Angeles-d9cac65c52.js" defer="defer"></script>
+<script src="./Quiz 6_files/en_US-80a0ce259b.js" defer="defer"></script>
+<script src="./Quiz 6_files/appBootstrap.bundle-476b1d457e.js" defer="defer"></script>
+<script src="./Quiz 6_files/common.bundle-d72bcdba69.js" defer="defer"></script>
+<script src="./Quiz 6_files/quiz_show.bundle-a7590a3745.js" defer="defer"></script>
+<script src="./Quiz 6_files/quiz_submission.bundle-b34ac7647c.js" defer="defer"></script>
+<style type="text/css"></style><style type="text/css">.mejs-offscreen{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);clip-path:polygon(0px 0,0 0,0 0,0 0);position:absolute!important;height:1px;width:1px;overflow:hidden}.mejs-container{position:relative;background:#000;font-family:Helvetica,Arial,serif;text-align:left;vertical-align:top;text-indent:0}.mejs-fill-container,.mejs-fill-container .mejs-container{width:100%;height:100%}.mejs-fill-container{overflow:hidden}.mejs-container:focus{outline:0}.me-plugin{position:absolute}.mejs-embed,.mejs-embed body{width:100%;height:100%;margin:0;padding:0;background:#000;overflow:hidden}.mejs-fullscreen{overflow:hidden!important}.mejs-container-fullscreen{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;z-index:1000}.mejs-container-fullscreen .mejs-mediaelement,.mejs-container-fullscreen video{width:100%;height:100%}.mejs-clear{clear:both}.mejs-background{position:absolute;top:0;left:0}.mejs-mediaelement{position:absolute;top:0;left:0;width:100%;height:100%}.mejs-poster{position:absolute;top:0;left:0;background-size:contain;background-position:50% 50%;background-repeat:no-repeat}:root .mejs-poster img{display:none}.mejs-poster img{border:0;padding:0}.mejs-overlay{position:absolute;top:0;left:0}.mejs-overlay-play{cursor:pointer}.mejs-overlay-button{position:absolute;top:50%;left:50%;width:100px;height:100px;margin:-50px 0 0 -50px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/746c3af7a145a09239a36e5ef61cfea0.svg) no-repeat}.no-svg .mejs-overlay-button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/716436fb3df0d29e6b37dd62d952676a.png)}.mejs-overlay:hover .mejs-overlay-button{background-position:0 -100px}.mejs-overlay-loading{position:absolute;top:50%;left:50%;width:80px;height:80px;margin:-40px 0 0 -40px;background:#333;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.9);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.9)),to(rgba(0,0,0,.9)));background:-webkit-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-moz-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-o-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-ms-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:linear-gradient(rgba(50,50,50,.9),rgba(0,0,0,.9))}.mejs-overlay-loading span{display:block;width:80px;height:80px;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/76b326f4d44222126fee21076595bef5.gif) 50% 50% no-repeat}.mejs-container .mejs-controls{position:absolute;list-style-type:none;margin:0;padding:0;bottom:0;left:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));height:30px;width:100%}.mejs-container .mejs-controls div{list-style-type:none;background-image:none;display:block;float:left;margin:0;padding:0;width:26px;height:26px;font-size:11px;line-height:11px;font-family:Helvetica,Arial,serif;border:0}.mejs-controls .mejs-button button{cursor:pointer;display:block;font-size:0;line-height:0;text-decoration:none;margin:7px 5px;padding:0;position:absolute;height:16px;width:16px;border:0;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/40f56f5a736da4effeb790cedb8a52f0.svg) no-repeat}.no-svg .mejs-controls .mejs-button button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/24a0227fbdd3acfd86ff03fc3fc6c8a4.png)}.mejs-controls .mejs-button button:focus{outline:dotted 1px #999}.mejs-container .mejs-controls .mejs-time{color:#fff;display:block;height:17px;width:auto;padding:10px 3px 0;overflow:hidden;text-align:center;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}.mejs-container .mejs-controls .mejs-time a{color:#fff;font-size:11px;line-height:12px;display:block;float:left;margin:1px 2px 0 0;width:auto}.mejs-controls .mejs-play button{background-position:0 0}.mejs-controls .mejs-pause button{background-position:0 -16px}.mejs-controls .mejs-stop button{background-position:-112px 0}.mejs-controls div.mejs-time-rail{direction:ltr;width:200px;padding-top:5px}.mejs-controls .mejs-time-rail span,.mejs-controls .mejs-time-rail a{display:block;position:absolute;width:180px;height:10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}.mejs-controls .mejs-time-rail .mejs-time-total{margin:5px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-time-rail .mejs-time-buffering{width:100%;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,.15)),color-stop(0.75,rgba(255,255,255,.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:15px 15px;-moz-background-size:15px 15px;-o-background-size:15px 15px;background-size:15px 15px;-webkit-animation:buffering-stripes 2s linear infinite;-moz-animation:buffering-stripes 2s linear infinite;-ms-animation:buffering-stripes 2s linear infinite;-o-animation:buffering-stripes 2s linear infinite;animation:buffering-stripes 2s linear infinite}@-webkit-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-moz-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-ms-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-o-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}.mejs-controls .mejs-time-rail .mejs-time-loaded{background:#3caac8;background:rgba(60,170,200,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(44,124,145,.8)),to(rgba(78,183,212,.8)));background:-webkit-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-moz-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-o-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-ms-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:linear-gradient(rgba(44,124,145,.8),rgba(78,183,212,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-current{background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-handle{display:none;position:absolute;margin:0;width:10px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;border:solid 2px #333;top:-2px;text-align:center}.mejs-controls .mejs-time-rail .mejs-time-float{position:absolute;display:none;background:#eee;width:36px;height:17px;border:solid 1px #333;top:-26px;margin-left:-18px;text-align:center;color:#111}.mejs-controls .mejs-time-rail .mejs-time-float-current{margin:2px;width:30px;display:block;text-align:center;left:0}.mejs-controls .mejs-time-rail .mejs-time-float-corner{position:absolute;display:block;width:0;height:0;line-height:0;border:solid 5px #eee;border-color:#eee transparent transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:15px;left:13px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float{width:48px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current{width:44px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner{left:18px}.mejs-controls .mejs-fullscreen-button button{background-position:-32px 0}.mejs-controls .mejs-unfullscreen button{background-position:-32px -16px}.mejs-controls .mejs-volume-button{}.mejs-controls .mejs-mute button{background-position:-16px -16px}.mejs-controls .mejs-unmute button{background-position:-16px 0}.mejs-controls .mejs-volume-button{position:relative}.mejs-controls .mejs-volume-button .mejs-volume-slider{height:115px;width:25px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:-115px;left:0;z-index:1;position:absolute;margin:0}.mejs-controls .mejs-volume-button:hover{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.5);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.9);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle{position:absolute;left:4px;top:-3px;width:16px;height:6px;background:#ddd;background:rgba(255,255,255,.9);cursor:N-resize;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0}.mejs-controls a.mejs-horizontal-volume-slider{height:26px;width:56px;position:relative;display:block;float:left;vertical-align:middle}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle{display:none}.mejs-controls .mejs-captions-button{position:relative}.mejs-controls .mejs-captions-button button{background-position:-48px 0}.mejs-controls .mejs-captions-button .mejs-captions-selector{position:absolute;bottom:26px;right:-51px;width:85px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px 10px 0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-captions-button .mejs-captions-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label{width:55px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-controls .mejs-captions-button .mejs-captions-translations{font-size:10px;margin:0 0 5px}.mejs-chapters{position:absolute;top:0;left:0;border-right:solid 1px #fff;width:10000px;z-index:1}.mejs-chapters .mejs-chapter{position:absolute;float:left;background:#222;background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#323232, endColorstr=#000000);overflow:hidden;border:0}.mejs-chapters .mejs-chapter .mejs-chapter-block{font-size:11px;color:#fff;padding:5px;display:block;border-right:solid 1px #333;border-bottom:solid 1px #333;cursor:pointer}.mejs-chapters .mejs-chapter .mejs-chapter-block-last{border-right:0}.mejs-chapters .mejs-chapter .mejs-chapter-block:hover{background:#666;background:rgba(102,102,102,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(102,102,102,.7)),to(rgba(50,50,50,.6)));background:-webkit-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-moz-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-o-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-ms-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:linear-gradient(rgba(102,102,102,.7),rgba(50,50,50,.6));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666, endColorstr=#323232)}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title{font-size:12px;font-weight:700;display:block;white-space:nowrap;text-overflow:ellipsis;margin:0 0 3px;line-height:12px}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan{font-size:12px;line-height:12px;margin:3px 0 4px;display:block;white-space:nowrap;text-overflow:ellipsis}.mejs-captions-layer{position:absolute;bottom:0;left:0;text-align:center;line-height:20px;font-size:16px;color:#fff}.mejs-captions-layer a{color:#fff;text-decoration:underline}.mejs-captions-layer[lang=ar]{font-size:20px;font-weight:400}.mejs-captions-position{position:absolute;width:100%;bottom:15px;left:0}.mejs-captions-position-hover{bottom:35px}.mejs-captions-text,.mejs__captions-text *{padding:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(20,20,20,.5);white-space:pre-wrap;-webkit-box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5);box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5)}.me-cannotplay{}.me-cannotplay a{color:#fff;font-weight:700}.me-cannotplay span{padding:15px;display:block}.mejs-controls .mejs-loop-off button{background-position:-64px -16px}.mejs-controls .mejs-loop-on button{background-position:-64px 0}.mejs-controls .mejs-backlight-off button{background-position:-80px -16px}.mejs-controls .mejs-backlight-on button{background-position:-80px 0}.mejs-controls .mejs-picturecontrols-button{background-position:-96px 0}.mejs-contextmenu{position:absolute;width:150px;padding:10px;border-radius:4px;top:0;left:0;background:#fff;border:solid 1px #999;z-index:1001}.mejs-contextmenu .mejs-contextmenu-separator{height:1px;font-size:0;margin:5px 6px;background:#333}.mejs-contextmenu .mejs-contextmenu-item{font-family:Helvetica,Arial,serif;font-size:12px;padding:4px 6px;cursor:pointer;color:#333}.mejs-contextmenu .mejs-contextmenu-item:hover{background:#2C7C91;color:#fff}.mejs-controls .mejs-sourcechooser-button{position:relative}.mejs-controls .mejs-sourcechooser-button button{background-position:-128px 0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector{position:absolute;bottom:26px;right:-10px;width:130px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label{width:100px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-postroll-layer{position:absolute;bottom:0;left:0;width:100%;height:100%;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);z-index:1000;overflow:hidden}.mejs-postroll-layer-content{width:100%;height:100%}.mejs-postroll-close{position:absolute;right:0;top:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);color:#fff;padding:4px;z-index:100;cursor:pointer}div.mejs-speed-button{width:46px!important;position:relative}.mejs-controls .mejs-button.mejs-speed-button button{background:transparent;width:36px;font-size:11px;line-height:normal;color:#fff}.mejs-controls .mejs-speed-button .mejs-speed-selector{position:absolute;top:-100px;left:-10px;width:60px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label.mejs-speed-selected{color:rgba(33,248,248,1)}.mejs-controls .mejs-speed-button .mejs-speed-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li{margin:0 0 6px;padding:0 10px;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label{width:60px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:11px;color:#fff;margin-left:5px;cursor:pointer}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li:hover{background-color:#c8c8c8!important;background-color:rgba(255,255,255,.4)!important}.mejs-controls .mejs-button.mejs-jump-forward-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/15e1ac8cbacc2efdf1ac2677de48a253.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-jump-forward-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}.mejs-controls .mejs-button.mejs-skip-back-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/cd6dc830eb45b3a5a96bbc936ff54846.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-skip-back-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}</style><style type="text/css">/*
+ * Copyright (C) 2014 - present Instructure, Inc.
+ *
+ * This file is part of Canvas.
+ *
+ * Canvas is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License as published by the Free
+ * Software Foundation, version 3 of the License.
+ *
+ * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* customizations to mediaelementplayer css */
+
+/*
+  Because this file is not proccessed by our brandable_css sass pipeline,
+  it cannot use our sass-direction helpers. So we have to handle RTL manually
+  by putting direction-specific styles in [dir="ltr"] or [dir="rtl"] blocks.
+*/
+/* stylelint-disable property-blacklist, declaration-property-value-blacklist */
+
+/* good menu widths */
+.mejs-sourcechooser-selector {
+  width: 160px;
+}
+.mejs-sourcechooser-selector label {
+  width: 160px !important;
+}
+
+.mejs-captions-selector {
+  width: 105px;
+}
+[dir="ltr"]  .mejs-captions-selector { text-align: left }
+[dir="rtl"]  .mejs-captions-selector { text-align: right }
+
+.mejs-captions-selector label {
+  width: 70px !important;
+}
+
+/* Subtitile upload link */
+.mejs-captions-selector .upload-track {
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+[dir="ltr"] .mejs-captions-selector .upload-track {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: left;
+}
+[dir="rtl"] .mejs-captions-selector .upload-track {
+  margin-left: 0px;
+  margin-right: 5px;
+  float: right;
+}
+
+/* "x" button to remove a subtitle */
+.mejs-captions-selector a[data-remove] {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+[dir="ltr"] .mejs-captions-selector a[data-remove] { right: 0 }
+[dir="rtl"] .mejs-captions-selector a[data-remove] { left: 0 }
+
+
+/* style menu items without a radio button */
+.mejs-button [role="menu"] {
+  padding: 0 !important;
+}
+ /* compensate for above 0 padding */
+ .mejs-button [role="menu"] ul li {
+  position: relative;
+  padding: 0 10px !important;
+}
+/* add a hover effect */
+.mejs-button [role="menu"] ul li:hover {
+  background-color: #c8c8c8 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.mejs-button [role="menu"] ul li input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+.mejs-button [role="menu"] ul li label {
+  cursor: pointer;
+}
+[dir="ltr"] .mejs-button [role="menu"] ul li label { margin-left: 5px }
+[dir="rtl"] .mejs-button [role="menu"] ul li label { margin-right: 5px }
+
+
+.mejs-button [role="menu"] label.mejs-selected {
+  color: #21f8f8 !important;
+}
+
+/* stylelint-enable property-blacklist, declaration-property-value-blacklist */
+</style><link rel="stylesheet" href="./Quiz 6_files/messageStudentsDialog-71cf06c9a8.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Quiz 6_files/PaginatedView-bf30c3a7d1.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Quiz 6_files/KeyboardShortcuts-f4493af988.css" data-loaded-by-brandablecss="true"><script type="text/javascript" charset="utf-8" async="" src="./Quiz 6_files/CanvasRCEAsyncChunk.chunk-22a8a4a4f8.js"></script><link rel="stylesheet" href="./Quiz 6_files/TreeBrowser-d5f73d406a.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Quiz 6_files/MoveOutcomeDialog-9d1c3f4686.css" data-loaded-by-brandablecss="true"><style type="text/css" data-glamor=""></style></head>
+
+<body class="with-left-side course-menu-expanded with-right-side padless-content quizzes primary-nav-expanded full-width context-course_1235296 lato-font-not-loaded-yet webkit chrome no-touch">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+
+<ul id="flash_message_holder"></ul>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="false"></div>
+
+<div id="application" class="ic-app">
+  
+  <header id="header" class="ic-app-header no-print ">
+    <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#content" id="skip_navigation_link">Skip To Content</a>
+      <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+        <div class="ic-app-header__logomark-container">
+          <a href="https://wwu.instructure.com/" class="ic-app-header__logomark">
+            <span class="screenreader-only">Dashboard</span>
+          </a>
+        </div>
+        <ul id="menu" class="ic-app-header__menu-list">
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <a id="global_nav_profile_link" href="https://wwu.instructure.com/profile" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <div class="ic-avatar ">
+                    <img src="./Quiz 6_files/avatar-50.png" alt="Christopher White">
+                  </div>
+                </div>
+                <div class="menu-item__text">
+                  Account
+                </div>
+              </a>
+            </li>
+          <li class="ic-app-header__menu-list-item ">
+            <a id="global_nav_dashboard_link" href="https://wwu.instructure.com/" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+              </div>
+              <div class="menu-item__text">Dashboard</div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+            <a id="global_nav_courses_link" href="https://wwu.instructure.com/courses" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Courses
+              </div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <a id="global_nav_groups_link" href="https://wwu.instructure.com/groups" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--groups" viewBox="0 0 200 135"><path d="M134.5 129.4c0-1.1 0-19.8-6.2-31.1-4.5-8.5-16.4-12.4-35-19.2-1.7-.6-3.4-1.1-5.1-1.7v-8.5c5.6-5.1 8.5-12.4 8.5-20.3V29.4C96.6 13 83.6 0 67.2 0S37.9 13 37.9 29.4v19.2c0 7.3 3.4 14.7 8.5 20.3v8.5c-1.7.6-3.4 1.1-5.1 1.7-18.6 6.2-30.5 10.7-35 19.2C0 109.6 0 128.8 0 129.4c0 3.4 2.3 5.6 5.6 5.6h123.7c3.5 0 5.7-2.3 5.2-5.6zm-123.2-5.7c.6-5.6 1.7-14.7 3.4-19.8C17 98.8 30 94.3 43.5 89.8c2.8-1.1 5.6-2.3 9-3.4 2.3-.6 4-2.8 4-5.1V66.7c0-1.7-.6-3.4-1.7-4.5-4-3.4-6.2-8.5-6.2-13.6V29.4c0-10.2 7.9-18.1 18.1-18.1s18.1 7.9 18.1 18.1v19.2c0 5.1-2.3 10.2-6.2 13.6-1.1 1.1-1.7 2.8-1.7 4.5v14.7c0 2.3 1.7 4.5 4 5.1 2.8 1.1 6.2 2.3 9 3.4 13.6 5.1 26.6 9.6 28.8 14.1 2.8 5.1 4 13.6 4.5 19.8H11.3zM196 79.1c-2.8-6.2-11.3-9.6-22.6-13.6l-1.7-.6v-3.4c4.5-4 6.8-9.6 6.8-15.8V35c0-12.4-9.6-22-22-22s-22 10.2-22 22v10.7c0 6.2 2.3 11.9 6.8 15.8V65l-1.7.6c-7.3 2.8-13 4.5-16.9 7.3-1.7 1.1-2.3 2.8-2.3 5.1.6 1.7 1.7 3.4 3.4 4.5 7.9 4 12.4 7.3 14.1 10.7 2.3 4.5 4 10.2 5.1 18.1.6 2.3 2.8 4.5 5.6 4.5h45.8c3.4 0 5.6-2.8 5.6-5.1 0-3.9 0-24.3-4-31.6zm-42.9 25.4c-1.1-6.8-2.8-12.4-5.1-16.9-1.7-4-5.1-6.8-9.6-10.2 1.7-1.1 3.4-1.7 5.1-2.3l5.6-2.3c1.7-.6 3.4-2.8 3.4-5.1v-9.6c0-1.7-.6-3.4-2.3-4.5-2.8-1.7-4.5-5.1-4.5-8.5V34.5c0-6.2 4.5-10.7 10.7-10.7s10.7 5.1 10.7 10.7v10.7c0 3.4-1.7 6.2-4.5 8.5-1.1 1.1-2.3 2.8-2.3 4.5v10.2c0 2.3 1.1 4.5 3.4 5.1l5.6 2.3c6.8 2.3 15.3 5.6 16.4 7.9 1.7 2.8 2.8 12.4 2.8 20.9h-35.4z"></path></svg>
+
+                </div>
+                <div class="menu-item__text">
+                  Groups
+                </div>
+              </a>
+            </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_calendar_link" href="https://wwu.instructure.com/calendar" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Calendar
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_conversations_link" href="https://wwu.instructure.com/conversations" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+
+                <span class="menu-item__badge" style="">2</span>
+              </div>
+              <div class="menu-item__text">
+                Inbox
+              </div>
+            </a>
+          </li>
+            
+
+
+          <li class="ic-app-header__menu-list-item">
+           <a id="global_nav_help_link" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+              <div class="menu-item-icon-container" role="presentation">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"></path></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Help
+              </div>
+</a>          </li>
+        </ul>
+      </div>
+      <div class="ic-app-header__secondary-navigation">
+        <ul class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item">
+            <button id="primaryNavToggle" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Minimize global navigation" title="Minimize global navigation">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+    <div id="global_nav_tray_container"></div>
+  </header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./Quiz 6_files/saved_resource.html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+          <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu" title="Hide Courses Navigation Menu">
+            <i class="icon-hamburger" aria-hidden="true"></i>
+          </button>
+          <div class="ic-app-crumbs">
+        <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="https://wwu.instructure.com/"><span class="ellipsible">      <i class="icon-home" title="My Dashboard">
+        <span class="screenreader-only">My Dashboard</span>
+      </i>
+</span></a></li><li><a href="https://wwu.instructure.com/courses/1235296"><span class="ellipsible">CSCI 367</span></a></li><li><a href="https://wwu.instructure.com/courses/1235296/quizzes"><span class="ellipsible">Quizzes</span></a></li><li><a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861"><span class="ellipsible">Quiz 6</span></a></li></ul></nav>
+        </div>
+      </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side" class="ic-app-course-menu list-view" style="display: block">
+              <span id="section-tabs-header-subtitle" class="ellipsis">Fall 2018</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="https://wwu.instructure.com/courses/1235296" title="Home" class="home" tabindex="0">Home</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/announcements" title="Announcements" class="announcements" tabindex="0">Announcements</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/assignments" title="Assignments" class="assignments" tabindex="0">Assignments</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/discussion_topics" title="Discussions" class="discussions" tabindex="0">Discussions</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/grades" title="Grades" class="grades" tabindex="0">Grades<b class="nav-badge">2</b></a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/users" title="People" class="people" tabindex="0">People</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/wiki" title="Pages" class="pages" tabindex="0">Pages</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/files" title="Files" class="files" tabindex="0">Files</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/assignments/syllabus" title="Syllabus" class="syllabus" tabindex="0">Syllabus</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/quizzes" title="Quizzes" class="quizzes active" tabindex="0">Quizzes</a></li><li class="section"><a href="https://wwu.instructure.com/courses/1235296/external_tools/8704" title="Chat" class="context_external_tool_8704" tabindex="0">Chat</a></li></ul></nav>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+            
+
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+
+
+
+
+<div id="quiz_show">
+
+  <header class="quiz-header">
+
+
+    <h1 id="quiz_title">
+      Quiz 6
+    </h1>
+
+
+    <div class="row-fluid">
+        <div id="quiz_details_wrapper" data-url="https://wwu.instructure.com/courses/1235296/quizzes/1063861/managed_quiz_data" data-submitted-count=""></div>
+    </div>
+    <div class="row-fluid">
+        
+
+<ul id="quiz_student_details">
+  <li>
+    <span class="title">Due</span>
+    <span class="value">
+        <span data-tooltip="" data-html-tooltip-title="Dec 8 at 11:59pm">
+          Dec 8 at 11:59pm
+        </span>
+    </span>
+  </li>
+
+  <li style="">
+    <span class="title">Points</span>
+    <span class="value">9</span>
+  </li>
+
+  <li>
+    <span class="title">Questions</span>
+    <span class="value">9</span>
+  </li>
+  
+  <li>
+    <span class="title">Available</span>
+    <span class="value">
+        Dec 7 at 7am - Dec 8 at 11:59pm
+        <span style="font-size: 0.8em;">1 day</span>
+    </span>
+  </li>
+
+  <li>
+    <span class="title">Time Limit</span>
+    <span class="value">
+        30 Minutes
+    </span>
+  </li>
+
+
+</ul>
+
+
+    <h2>Instructions</h2>
+    <div class="description user_content student-version enhanced">
+      <p>Chapter 23 The Domain Name System (DNS)</p>
+<p>Chapter 24 Electronic Mail (SMTP, POP, IMAP, MIME)</p>
+<p>Chapter 25 World Wide Web (HTTP)</p>
+    </div>
+
+    </div>
+
+
+    <div id="quiz-submission-version-table" style="height: auto; opacity: 1; display: block;">
+  <div class="desc">
+    <h3>Attempt History</h3>
+  </div>
+  <table class="ic-Table ic-Table--condensed" summary="A table that shows your quiz attempt history. Each attempt is on the left side. The attempt, time, and score are across the top.">
+    <thead>
+      <tr>
+        <td></td>
+        <th scope="col">Attempt</th>
+        <th scope="col">Time</th>
+        <th scope="col">Score</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+        
+<tr class="">
+  <th scope="row" class="ic-Table--header-row">
+      LATEST
+  </th>
+  <td>
+    <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/history?version=1">
+      Attempt 1
+    </a>
+  </td>
+  <td>
+    25 minutes
+  </td>
+
+    <td>
+      6 out of 9
+      
+    </td>
+</tr>
+
+    </tbody>
+  </table>
+
+</div>
+
+  </header>
+
+    
+  
+<div class="quiz-submission ">
+
+  <div class="alert">
+    <i class="icon-warning" aria-label="Correct answers are hidden."></i>
+    <span>Correct answers are hidden.</span>
+  </div>
+
+<div class="quiz_score" style="">
+    Score for this quiz:
+  <span class="score_value">6</span> out of 9
+  
+    </div>
+<div>
+  Submitted Dec 7 at  4:49pm
+</div>
+<div class="quiz_duration" style="">
+  This attempt took 25 minutes.
+</div>
+<div id="questions" class="assessment_results  suppress_correct_answers">
+  
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288514"></a>
+  <div class="display_question question multiple_choice_question   incorrect hover" id="question_22288514">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2" aria-describedby="user_answer_NaN_arrow"><span class="answer_arrow incorrect" style="left: -108px; top: 9px;" id="user_answer_NaN_arrow">Incorrect</span>Question 1</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                0
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_choice_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288514" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35095184</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;span style="font-family: Arial, sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;If you use a password to log into a Microsoft Exchange mail server, at which layer of the OSI model would your password be decoded?&nbsp;&lt;/span&gt;&lt;/span&gt;</textarea>
+      </div>
+      <div id="question_22288514_question_text" class="question_text user_content enhanced">
+          <span style="font-family: Arial, sans-serif;"><span style="font-size: medium;">If you use a password to log into a Microsoft Exchange mail server, at which layer of the OSI model would your password be decoded?&nbsp;</span></span>
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_7796" style="">
+
+
+      <span class="hidden id">7796</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-7796" name="question-22288514" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-7796">
+        <div class="answer_text">Application</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 104.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="Application">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">Application</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">7796</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_35077" style="" title="data link. You selected this answer.">
+
+
+      <span class="hidden id">35077</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-35077" name="question-22288514" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-35077">
+        <div class="answer_text">data link</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 85.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="data link">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">data link</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">35077</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_35526" style="">
+
+
+      <span class="hidden id">35526</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-35526" name="question-22288514" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-35526">
+        <div class="answer_text">transport</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 85.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="transport">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">transport</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">35526</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_6730" style="">
+
+
+      <span class="hidden id">6730</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-6730" name="question-22288514" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-6730">
+        <div class="answer_text">presentation</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 114px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="presentation">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">presentation</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">6730</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_51217" style="">
+
+
+      <span class="hidden id">51217</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-51217" name="question-22288514" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-51217">
+        <div class="answer_text">physical</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 76px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="physical">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">physical</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">51217</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288513"></a>
+  <div class="display_question question true_false_question" id="question_22288513">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 2</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">true_false_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288513" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35095183</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;span style="font-family: Arial, sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;SMTP email headers are sent as XML&lt;/span&gt;&lt;/span&gt;</textarea>
+      </div>
+      <div id="question_22288513_question_text" class="question_text user_content enhanced">
+          <span style="font-family: Arial, sans-serif;"><span style="font-size: medium;">SMTP email headers are sent as XML</span></span>
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_86472" style="">
+
+
+      <span class="hidden id">86472</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-86472" name="question-22288513" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-86472">
+        <div class="answer_text">True</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="True">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">True</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">86472</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_94909" style="" title="False. You selected this answer.">
+
+
+      <span class="hidden id">94909</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-94909" name="question-22288513" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-94909">
+        <div class="answer_text">False</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 47.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="False">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">False</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">94909</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288515"></a>
+  <div class="display_question question true_false_question   incorrect" id="question_22288515">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2" aria-describedby="user_answer_NaN_arrow"><span class="answer_arrow incorrect" style="left: -108px; top: 9px;" id="user_answer_NaN_arrow">Incorrect</span>Question 3</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                0
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">true_false_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288515" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35095185</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0.1in; margin-bottom: 0.1in;"&gt;&lt;span style="font-family: Arial,sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;&lt;span style="font-weight: normal;"&gt;POP3 is used to send or forward mail messages from an email originating computer to the email destination “post office” computer &lt;/span&gt;&lt;span style="font-weight: normal;"&gt;(mail exchanger)&lt;/span&gt;&lt;span style="font-weight: normal;"&gt;. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</textarea>
+      </div>
+      <div id="question_22288515_question_text" class="question_text user_content enhanced">
+          
+<p></p>
+<p style="margin-top: 0.1in; margin-bottom: 0.1in;"><span style="font-family: Arial,sans-serif;"><span style="font-size: medium;"><span style="font-weight: normal;">POP3 is used to send or forward mail messages from an email originating computer to the email destination “post office” computer </span><span style="font-weight: normal;">(mail exchanger)</span><span style="font-weight: normal;">. </span></span></span></p>
+
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_13283" style="" title="True. You selected this answer.">
+
+
+      <span class="hidden id">13283</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-13283" name="question-22288515" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-13283">
+        <div class="answer_text">True</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="True">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">True</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">13283</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_37607" style="">
+
+
+      <span class="hidden id">37607</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-37607" name="question-22288515" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-37607">
+        <div class="answer_text">False</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 47.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="False">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">False</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">37607</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288516"></a>
+  <div class="display_question question true_false_question   incorrect" id="question_22288516">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2" aria-describedby="user_answer_NaN_arrow"><span class="answer_arrow incorrect" style="left: -108px; top: 9px;" id="user_answer_NaN_arrow">Incorrect</span>Question 4</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                0
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">true_false_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288516" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35096056</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;span style="font-family: Arial, sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;HTTP headers can be sent in various browser selectable character encodings&lt;/span&gt;&lt;/span&gt;</textarea>
+      </div>
+      <div id="question_22288516_question_text" class="question_text user_content enhanced">
+          <span style="font-family: Arial, sans-serif;"><span style="font-size: medium;">HTTP headers can be sent in various browser selectable character encodings</span></span>
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_20844" style="" title="True. You selected this answer.">
+
+
+      <span class="hidden id">20844</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-20844" name="question-22288516" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-20844">
+        <div class="answer_text">True</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="True">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">True</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">20844</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_76962" style="">
+
+
+      <span class="hidden id">76962</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-76962" name="question-22288516" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-76962">
+        <div class="answer_text">False</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 47.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="False">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">False</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">76962</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288517"></a>
+  <div class="display_question question multiple_choice_question     " id="question_22288517">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 5</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_choice_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288517" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35096057</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0.1in; margin-bottom: 0.1in;"&gt;&lt;span style="font-family: Arial,sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;&lt;span style="font-weight: normal;"&gt;The WWW is constructed from servers and browsers. Content is composed using Hypertext Markup Language (HTML). Servers communicate with browsers using a protocol known as ___.&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</textarea>
+      </div>
+      <div id="question_22288517_question_text" class="question_text user_content enhanced">
+          
+<p></p>
+<p style="margin-top: 0.1in; margin-bottom: 0.1in;"><span style="font-family: Arial,sans-serif;"><span style="font-size: medium;"><span style="font-weight: normal;">The WWW is constructed from servers and browsers. Content is composed using Hypertext Markup Language (HTML). Servers communicate with browsers using a protocol known as ___.&nbsp;</span></span></span></p>
+
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_5648" style="">
+
+
+      <span class="hidden id">5648</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-5648" name="question-22288517" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-5648">
+        <div class="answer_text">HTTS</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="HTTS">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">HTTS</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">5648</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_32243" style="">
+
+
+      <span class="hidden id">32243</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-32243" name="question-22288517" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-32243">
+        <div class="answer_text">HDLC</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="HDLC">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">HDLC</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">32243</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_84381" style="" title="HTTP. You selected this answer.">
+
+
+      <span class="hidden id">84381</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-84381" name="question-22288517" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-84381">
+        <div class="answer_text">HTTP</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="HTTP">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">HTTP</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">84381</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_58164" style="">
+
+
+      <span class="hidden id">58164</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-58164" name="question-22288517" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-58164">
+        <div class="answer_text">SDLC</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="SDLC">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">SDLC</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">58164</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_24161" style="">
+
+
+      <span class="hidden id">24161</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-24161" name="question-22288517" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-24161">
+        <div class="answer_text">X.25</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="X.25">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">X.25</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">24161</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288518"></a>
+  <div class="display_question question multiple_choice_question     " id="question_22288518">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 6</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_choice_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288518" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35096058</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;&nbsp;&lt;/p&gt;
+&lt;p style="margin-top: 0.1in; margin-bottom: 0.1in;"&gt;&lt;span style="font-family: Arial,sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;&lt;span style="font-weight: normal;"&gt;HTTP header information is transmitted as&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</textarea>
+      </div>
+      <div id="question_22288518_question_text" class="question_text user_content enhanced">
+          
+<p>&nbsp;</p>
+<p style="margin-top: 0.1in; margin-bottom: 0.1in;"><span style="font-family: Arial,sans-serif;"><span style="font-size: medium;"><span style="font-weight: normal;">HTTP header information is transmitted as</span></span></span></p>
+
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_7165" style="">
+
+
+      <span class="hidden id">7165</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-7165" name="question-22288518" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-7165">
+        <div class="answer_text">general binary data</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 180.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="general binary data">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">general binary data</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">7165</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_15116" style="" title="ASCII text. You selected this answer.">
+
+
+      <span class="hidden id">15116</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-15116" name="question-22288518" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-15116">
+        <div class="answer_text">ASCII text</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 95px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="ASCII text">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">ASCII text</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">15116</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_86925" style="">
+
+
+      <span class="hidden id">86925</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-86925" name="question-22288518" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-86925">
+        <div class="answer_text">hexified ASCII</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 133px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="hexified ASCII">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">hexified ASCII</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">86925</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_92071" style="">
+
+
+      <span class="hidden id">92071</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-92071" name="question-22288518" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-92071">
+        <div class="answer_text">hexified 7-bit binary</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 199.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="hexified 7-bit binary">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">hexified 7-bit binary</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">92071</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_10907" style="">
+
+
+      <span class="hidden id">10907</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-10907" name="question-22288518" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-10907">
+        <div class="answer_text">EBCDIC</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 57px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="EBCDIC">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">EBCDIC</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">10907</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288520"></a>
+  <div class="display_question question multiple_choice_question     " id="question_22288520">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 7</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_choice_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288520" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35095001</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0.1in; margin-bottom: 0.1in;"&gt;&lt;span style="font-family: Arial,sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;&lt;span style="font-weight: normal;"&gt;Each entry in a DNS database consists of three items: a domain name, a record type, and a value. The record type specifies how the value is to be interpreted. An entry type that provides an alias for another DNS entry is the ___ type.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</textarea>
+      </div>
+      <div id="question_22288520_question_text" class="question_text user_content enhanced">
+          
+<p></p>
+<p style="margin-top: 0.1in; margin-bottom: 0.1in;"><span style="font-family: Arial,sans-serif;"><span style="font-size: medium;"><span style="font-weight: normal;">Each entry in a DNS database consists of three items: a domain name, a record type, and a value. The record type specifies how the value is to be interpreted. An entry type that provides an alias for another DNS entry is the ___ type.</span></span></span></p>
+
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_32862" style="">
+
+
+      <span class="hidden id">32862</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-32862" name="question-22288520" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-32862">
+        <div class="answer_text">A</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 9.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="A">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">A</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">32862</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_86791" style="">
+
+
+      <span class="hidden id">86791</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-86791" name="question-22288520" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-86791">
+        <div class="answer_text">MX</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 19px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="MX">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">MX</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">86791</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_83085" style="">
+
+
+      <span class="hidden id">83085</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-83085" name="question-22288520" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-83085">
+        <div class="answer_text">C</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 9.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="C">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">C</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">83085</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_13439" style="" title="CNAME. You selected this answer.">
+
+
+      <span class="hidden id">13439</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-13439" name="question-22288520" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-13439">
+        <div class="answer_text">CNAME</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 47.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="CNAME">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">CNAME</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">13439</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_37401" style="">
+
+
+      <span class="hidden id">37401</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-37401" name="question-22288520" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-37401">
+        <div class="answer_text">L</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 9.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="L">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">L</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">37401</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288519"></a>
+  <div class="display_question question true_false_question" id="question_22288519">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 8</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">true_false_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288519" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35095000</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;span style="font-family: Arial, sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;DNS does not distinguish between names in upper or lower case.&nbsp;&lt;/span&gt;&lt;/span&gt;</textarea>
+      </div>
+      <div id="question_22288519_question_text" class="question_text user_content enhanced">
+          <span style="font-family: Arial, sans-serif;"><span style="font-size: medium;">DNS does not distinguish between names in upper or lower case.&nbsp;</span></span>
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_11213" style="" title="True. You selected this answer.">
+
+
+      <span class="hidden id">11213</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-11213" name="question-22288519" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-11213">
+        <div class="answer_text">True</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="True">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">True</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">11213</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_65470" style="">
+
+
+      <span class="hidden id">65470</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-65470" name="question-22288519" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-65470">
+        <div class="answer_text">False</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 47.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="False">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">False</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">65470</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_22288521"></a>
+  <div class="display_question question multiple_choice_question" id="question_22288521">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 9</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_choice_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://wwu.instructure.com/courses/1235296/quizzes/1063861/questions/22288521" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">35095002</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0.1in; margin-bottom: 0.1in;"&gt;&lt;span style="font-family: Arial,sans-serif;"&gt;&lt;span style="font-size: medium;"&gt;&lt;span style="font-weight: normal;"&gt;When a client application makes a DNS request, for example by calling &lt;/span&gt;&lt;em&gt;&lt;span style="font-weight: normal;"&gt;gethostbyname&lt;/span&gt;&lt;/em&gt;&lt;span style="font-weight: normal;"&gt;, it typically requests a(n) ___ lookup.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</textarea>
+      </div>
+      <div id="question_22288521_question_text" class="question_text user_content enhanced">
+          
+<p></p>
+<p style="margin-top: 0.1in; margin-bottom: 0.1in;"><span style="font-family: Arial,sans-serif;"><span style="font-size: medium;"><span style="font-weight: normal;">When a client application makes a DNS request, for example by calling </span><em><span style="font-weight: normal;">gethostbyname</span></em><span style="font-weight: normal;">, it typically requests a(n) ___ lookup.</span></span></span></p>
+
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer unspecified_answer" id="answer_83629" style="" title="recursive. You selected this answer.">
+
+
+      <span class="hidden id">83629</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-83629" name="question-22288521" type="radio" checked="" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-83629">
+        <div class="answer_text">recursive</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 85.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="recursive">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">recursive</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">83629</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <div class="quiz_comment empty">
+        <div class="answer_comment"></div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_81234" style="">
+
+
+      <span class="hidden id">81234</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-81234" name="question-22288521" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-81234">
+        <div class="answer_text">iterative</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 85.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="iterative">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">iterative</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">81234</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_88815" style="">
+
+
+      <span class="hidden id">88815</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-88815" name="question-22288521" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-88815">
+        <div class="answer_text">Source of Authority</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 180.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="Source of Authority">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">Source of Authority</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">88815</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_59961" style="">
+
+
+      <span class="hidden id">59961</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-59961" name="question-22288521" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-59961">
+        <div class="answer_text">cached</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 57px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="cached">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">cached</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">59961</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+          unspecified_answer" id="answer_49844" style="">
+
+
+      <span class="hidden id">49844</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-49844" name="question-22288521" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-49844">
+        <div class="answer_text">MX</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 19px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="MX">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">MX</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="id">49844</span>
+      <span class="match_id"></span>
+    </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+</div>
+  <div id="update_scores">
+
+
+<div class="quiz_score" style="text-align: right; font-size: 1.2em; ">
+    Quiz Score:
+  <span class="score_value">6</span> out of 9
+</div>
+</div> <!-- #speed_update_scores || #update_scores -->
+</div>
+
+
+
+
+  <div id="assignment_external_tools"><div></div></div>
+
+  <div id="module_sequence_footer" style="display: none;"></div>
+
+</div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+                <div id="sidebar_content" class="rs-margin-bottom">
+      <ul class="page-action-list" style="display:none;">
+        <h2>Related Items</h2>
+
+
+      </ul>
+    </div>
+
+        
+  <div>
+    <div style="border-bottom: 1px solid #888; font-size: 1.1em; font-weight: bold;">
+        Submission Details:
+    </div>
+    <div>
+    <table class="summary" style="font-size: 1.1em;">
+      <tbody>
+        <tr>
+          <th>Time:</th>
+          <td>25 minutes</td>
+        </tr>
+        <tr style="">
+          <th>Current Score:</th>
+          <td>6 out of 9
+                  </td>
+        </tr>
+        <tr style="">
+          <th>Kept Score:</th>
+          <td>6 out of 9</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">873ae7b4-3a0c-4444-86c8-075e85aea486</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+  
+
+<script>
+  INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"fms-prod.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"googleAnalyticsAccount":"UA-9138420-1","logPageViews":true,"maxVisibleEditorButtons":3,"editorButtons":[{"name":"Dropbox","id":9153,"url":"https://www.edu-apps.org/tool_redirect?id=dropbox","icon_url":"https://www.edu-apps.org/tools/dropbox/icon.png","canvas_icon_class":null,"width":400,"height":200},{"name":"YouTube","id":20125,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600},{"name":"Screencast-O-Matic","id":65842,"url":"https://screencast-o-matic.com/lti/editorButton","icon_url":"https://dfjnl57l0uncv.cloudfront.net/www/2.4.115/images/lti_canvas_editbutton.png","canvas_icon_class":null,"width":770,"height":600}]};
+  ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/c7c2db511ab4ea8662846bc255200a09/variables-750d72b9d3e5d522f965bf904110c132.json","url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/c7c2db511ab4ea8662846bc255200a09/variables-750d72b9d3e5d522f965bf904110c132.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-53dac18d10.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/default/variables-high_contrast-750d72b9d3e5d522f965bf904110c132.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-b4d65fe883.css"],"current_user_id":"3583693","current_user_roles":["user","student"],"current_user_disabled_inbox":false,"files_domain":"cluster10-files.instructure.com","DOMAIN_ROOT_ACCOUNT_ID":100000000102096,"k12":false,"use_responsive_layout":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *"],"SETTINGS":{"open_registration":false,"eportfolios_enabled":true,"collapse_global_nav":false,"show_feedback_link":true,"enable_profiles":false},"ARC_RECORDING_FEATURE_ENABLED":false,"current_user":{"id":"3583693","display_name":"Christopher White","avatar_image_url":"https://wwu.instructure.com/images/messages/avatar-50.png","html_url":"https://wwu.instructure.com/about/3583693","avatar_is_fallback":true},"page_view_update_url":"/page_views/873ae7b4-3a0c-4444-86c8-075e85aea486?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiODczYWU3YjQtM2EwYy00NDQ0LTg2YzgtMDc1ZTg1YWVhNDg2IiwidSI6MTAwMDAwMDAzNTgzNjkzLCJjIjoiMjAxOC0xMi0wOFQwMDo0OToxNi4zMFoifQ.T4NmOeCQrbpzx0OnniAbQmsFdQLzdk3RiydlsLLo1_0","context_asset_string":"course_1235296","ping_url":"https://wwu.instructure.com/api/v1/courses/1235296/ping","TIMEZONE":"America/Los_Angeles","CONTEXT_TIMEZONE":"America/Los_Angeles","LOCALE":"en","BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","RICH_CONTENT_SERVICE_ENABLED":true,"RICH_CONTENT_APP_HOST":"rich-content-iad.inscloudgate.net","RICH_CONTENT_CDN_HOST":"dvgcns7dz7zc.cloudfront.net/rce_service/versions/","RICH_CONTENT_SKIP_SIDEBAR":null,"JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSW4wLi5GVmFxU2lFV0szbnBnX2hyLjFSVE0wNGMyM1dnZGdxWS1QZzlULVUxdm9UbDF5QnhBUi13RmZhajg3U0FjWV9SWG5MRHJxU1ZoSzRpNURFVUhadC1UdkR0dmxfN2FkeTh3MHcxXzk3d0ZMZVExREMyTGhGUlVzV3NsTXZvMGtGWlZiVzQzd0QxWlZjRm5WRjNkU1JUcUFRWHZRdERXNWlpXy1Hd19FSFhneTdic0JfNnI0b3Yxcng0eUROeExIYjFKZjBiREFtNEp4Qlc4OHYwd2ZPcVFYazNVaFQ1UlpXVGtmRTF4bnJOWVNRbzlXUEpCS1gydm9lWUZBdWNRTDB4UVBma2FUSXpqdkVhV3diVWZxN2pVNldjelhpdnVqN0hyRnNuczFSbkZvZmJMR1otaGlZMVlhSTJ1czlsZHpsbzdhMFZwTUVpSFFBN3M0VDkwY1pXZ0VUT1JrTmVtMGg5Y1dudXVsR0F6aGtmZzRCUDNwSVlJUFJPWHBxX1U0THdpdEFNVXRxaUctN2FMbUVNSi16NndMbjFKdE5VRFR4ZE4xNEVQaUtkWkpoNEl4QVQtai1ScnJTaFVPaHZfUkpoSjBVYnF2VzAyR1lxUUhpckt5dFpoTy1Nd2p5WWhNNmVOX0NtZTctdkVnbEJ2QXdrVTRDX0VxRjZ2djNFa25RUzRwaFJUVHZJRTBPZWV5OTFoMWVuRk9wVllTdGM0YVRBMXU1M29OTWxJYzFqQnk5RjNhNzlJU0QyaXZtc1pRbG1mU3RrUE1SSVhKT3c0cnYwQ0FRZko0Y1c1djRpbXJ0Qlo4Q1RtUnRsY1FoQU5FaVlObVRrRmdHMmVfUnAwclQ0M3ZlLW1EUHlRd1F6UE5CY3NzcGg2VDhmWTlueGJUcW03bzlTZ19mWGhBMnFyX1R5V2E4LWJXbm1jRXlkcE1pbV95SElQWGg1S2g3TFA4ZG5rMl9MNUhXXzV1MGY1S0NuYW9pa1g0TjdhLVlpdlhueEM0UVBTaTJnSTJIQVVISllrSzlvS1JhYTNTM25fRW9GWF9jMkg0RGFEeDZJYVRIWnU4d09jLWkzTzAwRVo3QnNlcEZRNEpzTS5pUVNMMkxKX0ZjcHFXUXJ0SWtNeVZB","RICH_CONTENT_CAN_UPLOAD_FILES":false,"RICH_CONTENT_FILES_TAB_DISABLED":false,"SUBMISSION_DOWNLOAD_DIALOG_TITLE":"Download All Quiz File Upload Submissions","UPLOAD_URL":"/api/v1/courses/1235296/quizzes/1063861/submissions/self/files","SUBMISSION_VERSIONS_URL":"https://wwu.instructure.com/courses/1235296/quizzes/1063861/submission_versions","QUIZ_SUBMISSION_EVENTS_URL":"https://wwu.instructure.com/api/v1/courses/1235296/quizzes/1063861/submissions/11139403/events","ATTACHMENTS":{},"CONTEXT_ACTION_SOURCE":"quizzes","COURSE_ID":1235296,"LOCKDOWN_BROWSER":false,"QUIZ":{"id":"1063861","title":"Quiz 6","html_url":"https://wwu.instructure.com/courses/1235296/quizzes/1063861","mobile_url":"https://wwu.instructure.com/courses/1235296/quizzes/1063861?force_user=1\u0026persist_headless=1","description":"\u003cp\u003eChapter 23 The Domain Name System (DNS)\u003c/p\u003e\n\u003cp\u003eChapter 24 Electronic Mail (SMTP, POP, IMAP, MIME)\u003c/p\u003e\n\u003cp\u003eChapter 25 World Wide Web (HTTP)\u003c/p\u003e","quiz_type":"assignment","time_limit":30,"shuffle_answers":false,"show_correct_answers":false,"scoring_policy":"keep_highest","allowed_attempts":1,"one_question_at_a_time":false,"question_count":9,"points_possible":9.0,"cant_go_back":false,"ip_filter":null,"due_at":"2018-12-09T07:59:00Z","lock_at":"2018-12-09T07:59:00Z","unlock_at":"2018-12-07T15:00:00Z","published":true,"locked_for_user":false,"hide_results":null,"show_correct_answers_at":null,"hide_correct_answers_at":null,"all_dates":[{"due_at":"2018-12-09T07:59:00Z","unlock_at":"2018-12-07T15:00:00Z","lock_at":"2018-12-09T07:59:00Z","base":true}],"can_update":false,"require_lockdown_browser":false,"require_lockdown_browser_for_results":false,"require_lockdown_browser_monitor":false,"lockdown_browser_monitor_data":"","permissions":{"read_statistics":false,"manage":false,"read":true,"update":false,"create":false,"submit":true,"preview":false,"delete":false,"grade":false,"review_grades":false,"view_answer_audits":false},"quiz_reports_url":"https://wwu.instructure.com/api/v1/courses/1235296/quizzes/1063861/reports","quiz_statistics_url":"https://wwu.instructure.com/api/v1/courses/1235296/quizzes/1063861/statistics","quiz_submission_versions_html_url":"https://wwu.instructure.com/courses/1235296/quizzes/1063861/submission_versions","assignment_id":"4356124","one_time_results":true,"assignment_group_id":"1150259","show_correct_answers_last_attempt":false,"version_number":5,"has_access_code":false,"post_to_sis":false,"migration_id":"i9128cfced78164fdad54be61b8ab8ec6"},"QUIZZES_URL":"https://wwu.instructure.com/courses/1235296/quizzes","MAX_GROUP_CONVERSATION_SIZE":100,"CONDITIONAL_RELEASE_SERVICE_ENABLED":true,"CONDITIONAL_RELEASE_ENV":{"jwt":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSW4wLi5LMHJfa0dnemxodnl5d2JqLkpUbF9zN3M1YmlMeHhnM1NRaGcxMEhHQ01nVHl1NFFqSHFIRklqNWZaNzRDRVh6ZU9iNVlBU2pzN0ZQZDlWUVFBZFRxRkc1ZVVONkRhdEZXLWFGRWhpX2RhbWM0eHBhYUNpdndGUl91Tm1RVXFkM1I4d2FIUVRneUl4UUJwVU1TRUdEZ2lOMEJhT2trZEQyUFdncWt1dmhZZ0FFc04yNHRINUFPMnlpWklJUUhfMWNjS1pqTGxwcWlTY25oX1d6UWl5WjFTZHlTSlpfd3ZkZk9IcWJTVl9BaHBmU2pyUk14R3g1SWxGLV9sYk1kM0hSajByRUxsa01SY3dJSEthLVZQVGVSRmVvTzdUNjA0X2RLdm03YWhuMzNkM0ZsOTRYWHFvNTZrb2c5bjZZRjNRTVlyLWpZaWg1WnlMeVFoUGk3emcxUFVkSUtoY0pGOUpFZml4OWFVNHRMbzh5a3Y5YUd3Nnd4dE5ZQ2Q4RUFrY0pPcFdrc0h4Zmx5bXdxdXMtMzVlMEFlTFVsc1dGanA4Mk9qR2lZb1JQX0FDendPZlMtYV9VZzBLU0xBcHBWdkF6X1lNVW5tQjZvZE5kekx4azVYMDZSMU56cEs1a3VVa0tGcy1NX2NoV1c2SUZ1WUFDR3dLWEJtLUZ3dlNad2VDR2dkVXExSmxVM0R0QmRuNnZXd2FnWG9vRVZVNmtoTXo5aDdzTjdFNFVEeXJNay1NVjJ4MWhKdXVONGs5cTVJYjdxc3NnWmpRSFVSelB3WnRCOGJ5WlVLVFBoUkZQTllQYXRJQy03ZG1MaDdZRVNodGMyRmlMZ3NxMGNLU2l0LVZsSGg5eHBVZDRVbXdNdjg2MGphaU80cVBObUtWMUU1aXJPTl9qZ19fN3NQLUg5ZV9pVDJ0bGdSMGN6SVB4UkVlVFBUZU1PMjU4YnA3UXEzbHdZQnRMa0cyM052VjBvNm5ySVN2clBmMmt1OEJTWGRTT1BrY2Fma1ZCMVdOR29zR0QwQUVSeTYzajVFUjhVSElua0M4ZHNNQjViWHhJOFJCaXduVjAxNFpsTkIzYVE0TER6b016OFR2a1hrMk1FY2R0SzhRYUdrXzY0TUtJUE1fVWdDTGhJQi1JdmxPVEc3SXVYVnA0T2xEVng0SFdSWTU3WWlxSElSWEVlM2lMNXJhZExnSE84OHJ5YU8zR19JX3FsbndPNXQwaXUxTl9mdVZTQ2tPWjlSdUxZLWpFMVcyVzB1X01FQWt4dDRjdkNUS2tQNDliOXJaSThpUzZSektSX0ViRWI0MXNFLWs1Y1g3bXRWU3NlTjBIMll6b0c1US1zeDJTQ2tCMnhoWE9ZNUxrQTdsdTFfdmU2R2p6TG9CbnJtYVVvTzhEeG5aNDZmbEFZNURZT0M3eXJ6REZJUkI0YkMxaUVtS2lYeDloMlVvbEZYZmoxMV9qOUQ3dzFydEc0OU1QNGRxSmpObkxtTktlMUsxNi1oeTNCV3Z4ZXJWeURhcjc3UFJuX1BIdEd6bFhESDI4WHo1TWpfZzF1T3QtN2VZei1GVHBjOU1CSnJuMkpPVllyeVZHWFRfbndyTTRCbFR6UjlpNno5M2ZBZEJxMHUtZVlGVjktbkZuOWdaejIzc2JEOEVFRHhGbkQtQjBrQ3c1MEp6Q0h3NkxwcjFlTUQtdTJ5dENDWjFDTzRFNmpGcWNzVzFiazZlMnRjb3ItSFNlaHB1QXlFd0dRanV2Z1pGbU1FVjhWaE5mRllsaXFYZWdTQS1OZUtYYzRCR0tESXdyRUpsdFdVNmZ2LVh1UDlJQmllemp3czJhYXpkSWFTMzZ1MlM4dW05S25EQmNXSk05RmFURTBUck40b0pIV3pyYmNVaExRdVpCSzRwaDY5d2RSdWhiWm12Uk1SVjM0UUplclp4LWRuUm9vQ05YUVpTaTkzbm9YOUZtRUNBanpEdGdTWUJlVlFDUjhkZzZxWnJ3Xy1zWThDNHd5YmQwUUhobjFvT18xOWFTSmVlaDBrN1BEWkQ3NkpheFBMeDRnd1NyWHk0dUkwaXlTUW1kZjIwcnN2WlpOc00xNHh5VUVwSUdyRjV5Skd6R014THUyQV9PbmctVmZTQ1dFTi1WXzY1YTY5TkQ4ZUJESXQ1ODlWdnh4U1J2aXRSWU5QVzlvVjlPOWhGLXlqa296Zm8zdW5XT2REY0M5QmtXeFFEX2ZOTWJxQVkyLWxyLVdpS2xyNFdQSGZJVnl5d3FlOE5KRjZfd0hsYWs0Zi1pbVR3R2ZKRjlRT2pNWFEzWHpEbDkyWVZaaGJnSmNkQ1pKZ0t3aGVacGthbVF6VWZsU1VLZ0ZVcVBUczhTc0tGUk9sZ1ppRW4wR3N6Um9SUl9GNEhISkswWjczdjNXUkRLX2N1Z2dSbjF2Q08tcDYxcnpTM3hWUmdqUXAwTTg2SVRKb0tlSzhNQTdXSDVxVWRBYlBnUEl3VFBMS2lYZWhTRi1QOWMtQlNQelgxckpUTDJMRmFjQmhlaHBZSTNNMGpTVGUtTVp5OWd4QktBUmt4bkJPVXQtVzZmVkExYlhTa1J2c0dRd2h0bjkxY19PcmVqdWlsejQxcFJpdHR5RXNWMVpfVk9vLW5vdkdnYXhQcUxkWWlxd3F3U1lja3hiQl96a0ZETzlnbTRWdUVTaXZiS1hDZy1yT1NQVUxaVmV4dTBnOUh5Sms0UTlHNHl1MlNZMGZKLV9oUFR4YlUzMDJFMkJVbFl2SU9Lb0c5QVZZNEY2TWlObERDX2dLckM1TjhpTWVhT2JmSFhfaC1CTVlUZEo4MVotTW50el94QWkzWW9Bbkl5RXVRUmJSUDVzWWNmeWp6el8xcDVIb2t2ZnRTa2xRVmF5SDV4bnRiellYVlpnSm5mZzVJT3hhZ0hqS1ROOFpkckxtZl85LnFaSlRMMEd4X2RWTXRRSXpMS3ZJb2c=","assignment":{"id":"4356124","title":"Quiz 6","description":"\u003cp\u003eChapter 23 The Domain Name System (DNS)\u003c/p\u003e\n\u003cp\u003eChapter 24 Electronic Mail (SMTP, POP, IMAP, MIME)\u003c/p\u003e\n\u003cp\u003eChapter 25 World Wide Web (HTTP)\u003c/p\u003e","points_possible":9.0,"grading_type":"points","submission_types":"online_quiz","grading_scheme":null},"stats_url":"https://conditional-release-iad-prod.instructure.com/stats","locale":"en","editor_url":"https://conditional-release-iad-prod.instructure.com/javascripts/generated/conditional_release_editor.bundle.js","base_url":"https://conditional-release-iad-prod.instructure.com/","context_id":"1235296","rule":null},"IS_SURVEY":false,"badge_counts":{"submissions":2},"notices":[]};
+</script>
+
+<script src="./Quiz 6_files/navigation_header.bundle-164a78094a.js" defer="defer"></script>
+<script src="./Quiz 6_files/canvabadge.js" defer="defer"></script>
+
+</div> <!-- #application -->
+
+
+<div id="nav-tray-portal" style="position: relative; z-index: 99;"></div></body></html>
